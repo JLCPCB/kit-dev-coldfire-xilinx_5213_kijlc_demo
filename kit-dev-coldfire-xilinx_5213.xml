@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/atommann/kicad/kit-dev-coldfire-xilinx_5213_kijlc_demo/kit-dev-coldfire-xilinx_5213.sch</source>
-    <date>Sat 12 Jun 2021 06:35:11 PM HKT</date>
+    <date>Wed 16 Jun 2021 10:08:50 AM HKT</date>
     <tool>Eeschema 5.1.10-88a1d61d58~88~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -80,6 +80,10 @@
     <comp ref="CT1">
       <value>JUMPER</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLC">HDR-TH_2P-P2.54-V</field>
+        <field name="LCSC"> C358684</field>
+      </fields>
       <libsource lib="kit-dev-coldfire-xilinx_5213_schlib" part="JUMPER" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>46545507</tstamp>
@@ -246,6 +250,10 @@
     <comp ref="VDDA1">
       <value>JUMPER</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLC">HDR-TH_2P-P2.54-V</field>
+        <field name="LCSC">C358684</field>
+      </fields>
       <libsource lib="kit-dev-coldfire-xilinx_5213_schlib" part="JUMPER" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>46238079</tstamp>
@@ -812,6 +820,10 @@
     <comp ref="J1">
       <value>JACK_2P</value>
       <footprint>connect:JACK_ALIM</footprint>
+      <fields>
+        <field name="JLC">DC-IN-TH_DC-005-20A</field>
+        <field name="LCSC"> C136744</field>
+      </fields>
       <libsource lib="kit-dev-coldfire-xilinx_5213_schlib" part="JACK_2P" description=""/>
       <sheetpath names="/inout_user/" tstamps="/47D80202/"/>
       <tstamp>465307C6</tstamp>
@@ -1239,6 +1251,10 @@
     <comp ref="UARTCAN0">
       <value>DB9</value>
       <footprint>connect:DB9FC</footprint>
+      <fields>
+        <field name="JLC">DB9-TH_ID09S33E4GV00LF</field>
+        <field name="LCSC">C185657</field>
+      </fields>
       <libsource lib="kit-dev-coldfire-xilinx_5213_schlib" part="DB9" description=""/>
       <sheetpath names="/inout_user/" tstamps="/47D80202/"/>
       <tstamp>4652B26D</tstamp>
@@ -1603,6 +1619,10 @@
     <comp ref="P1">
       <value>CONN_6</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLC">HDR-TH_6P-P2.54-V</field>
+        <field name="LCSC">C37208</field>
+      </fields>
       <libsource lib="kit-dev-coldfire-xilinx_5213_schlib" part="CONN_6" description=""/>
       <sheetpath names="/xilinx/" tstamps="/47D80204/"/>
       <tstamp>46A76BA6</tstamp>
